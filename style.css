@@ -26,7 +26,7 @@ section>form {
     width: 10px;
 }
 
-.ligne1 {
+#ligne1 {
     color: rgba(255, 255, 255, 0.867);
     display: flex;
     align-items: stretch;
@@ -34,7 +34,7 @@ section>form {
     margin: 30px;
 }
 
-.ligne2 {
+#ligne2 {
     color: rgba(255, 255, 255, 0.867);
     display: flex;
     flex-wrap: nowrap;
@@ -42,7 +42,7 @@ section>form {
     margin: 30px;
 }
 
-.ligne3 {
+#ligne3 {
 
     color: rgba(255, 255, 255, 0.867);
     display: flex;
@@ -51,7 +51,7 @@ section>form {
     margin: 30px;
 }
 
-.ligne4 {
+#ligne4 {
     color: rgba(255, 255, 255, 0.867);
     display: flex;
     flex-wrap: nowrap;
@@ -59,19 +59,17 @@ section>form {
     margin: 30px;
 }
 
-.ligne5 {
+#ligne5 {
     display: none;
     color: rgba(255, 255, 255, 0.867);
-    display: flex;
     flex-wrap: nowrap;
     align-items: stretch;
     margin: 30px;
 }
 
-.ligne6 {
+#ligne6 {
     display: none;
     color: rgba(255, 255, 255, 0.867);
-    display: flex;
     flex-wrap: nowrap;
     align-items: stretch;
     margin: 30px;
@@ -86,7 +84,7 @@ label {
 }
 
 input {
-    color: rgba(255, 255, 255, 0.867);
+    color: black;
     width: 900px;
     padding: 16px;
 }
@@ -114,5 +112,31 @@ input {
 
 .myButton:active {
     position: relative;
-    /* top: 1px; */
+    top: 1px;
+}
+
+#back {
+    display: none;
+    box-shadow: inset 0px 39px 0px -24px #e67a73;
+    background-color: #e4685d;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 6px 15px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #b23e35;
+    width: 120px;
+    margin: 70px 10px auto 1100px
+}
+
+#back :hover {
+    background-color: #eb675e;
+}
+
+#back :active {
+    position: relative;
+    top: 1px;
 }
